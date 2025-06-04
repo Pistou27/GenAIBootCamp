@@ -7,13 +7,13 @@ print("I AM A COMPUTER!")
 if 1 < 2 and 4 > 2:
     print("Math is fun")
 
-nope = ""
+nope = None
 
-True and False
+result = True and False
 
 lenght = len("What's my length?")
 
-upcase = ("i am shouting").upper()
+upcase = "i am shouting".upper()
 
 thousandString = "1000"
 
