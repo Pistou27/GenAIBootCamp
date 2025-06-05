@@ -54,7 +54,7 @@ listMzing = [con for con in wordAmazing if con not in vowel]
 print (listMzing)
 
 #10
-listInList3 = [[i for i in range(0, 3)] for _ in range(0, 3)]
+listInList3 = [[i for i in range(0, 3)] for _ in range(3)]
 print(listInList3)
 
 #11
