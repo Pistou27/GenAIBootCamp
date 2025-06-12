@@ -1,0 +1,9 @@
+URL: URL: https://github.com/Pistou27/GenAIBootCamp/blob/exercicesPythonGenIA/week2/day2/xp.py
+suggestions for improvement:
+- In Exercise 1, the function `find_oldest_cat` could be made more generic to handle any number of cats, not just three.
+- In Exercise 2, the `jump()` method in the `Dog` class has a minor error. It should print `f"{self.name} jumps {self.height * 2} cm high!"` instead of `f"{self.height * 2} jumps cm high!"`.
+- In Exercise 4, the `__init__` method of the `Zoo` class should initialize `animal_list` as an empty list if none is provided.  It currently requires an argument, making it less flexible.
+- Improve error handling in Exercise 4's `add_animal` and `sell_animal` methods.  Currently, they print messages but don't explicitly handle cases where the animal is not found (or found in `add_animal`). Throwing exceptions and handling them would be more robust.
+- Add docstrings to all functions and classes for better readability and understandability.
+Correctness: 90%
+-----
