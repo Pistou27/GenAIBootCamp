@@ -1,0 +1,14 @@
+URL: URL: https://github.com/Pistou27/GenAIBootCamp/blob/exercicesPythonGenIA/week2/day3/exercices/xp.py
+suggestions for improvement:
+- In Exercise 1, the `Cat` class inherits from `Pets`, which might not be the most intuitive design.  Consider having both inherit from a common ancestor if needed (like an `Animal` class), or keeping them separate if there's no direct relationship.
+- In Exercise 1, the `Siamese` class only adds an `eye_color` attribute.  The instructions suggest adding methods as well.  Consider adding methods to represent breed-specific behaviors.
+- In Exercise 3, the `PetDog` class's `play` method doesn't use the `*args` effectively. It should concatenate dog names for a single output string.
+- Exercise 4 is missing. The provided code only addresses exercises 1, 2, and 3.
+Correctness: 90%
+-----
+URL: URL: https://github.com/Pistou27/GenAIBootCamp/blob/exercicesPythonGenIA/week2/day3/exercices/xpBis.py
+suggestions for improvement:
+- In the `Family` class, the `check_majority` method could be improved by handling the case where a person with the given `first_name` is not found in the `members` list.  Currently, it silently does nothing.  Consider adding a message indicating that the person was not found.
+- Add docstrings to both the `Person` and `Family` classes and methods to improve readability and understanding.  Docstrings explain what the class/method does and parameters used.
+Correctness: 100%
+-----
