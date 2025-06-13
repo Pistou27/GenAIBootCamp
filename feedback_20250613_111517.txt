@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Pistou27/GenAIBootCamp/blob/exercicesPythonGenIA/week2/day4/rockPaperScissor/game.py
+suggestions for improvement:
+- The `rock-paper-scissors.py` file is missing, which is a crucial part of the project as defined in the instructions.  The provided code only implements the `game.py` portion.
+- The `get_user_item` function in `game.py` uses a dictionary to allow both short and full names which is more user friendly but the instructions just asked for rock/paper/scissors.
+- The output of the game in the `play` method doesn't exactly match the example output in the instructions; however, it conveys the necessary information.
+- Error handling could be improved in `get_user_item` by using a `try-except` block to catch potential `ValueError` exceptions if the user inputs something non-numeric or unexpected.
+- The `main` function (and associated menu functions) are missing, preventing the full functionality of the game and the accumulation of win/loss/draw statistics.  This is a major part of the instructions.
+Correctness: 85%
+-----
+URL: URL: https://github.com/Pistou27/GenAIBootCamp/blob/exercicesPythonGenIA/week2/day4/rockPaperScissor/rock-paper-scissors.py
+suggestions for improvement:
+- The `game.py` file is missing, preventing a complete assessment of the `Game` class implementation.  The provided code only shows the `rock-paper-scissors.py` file.
+- The `get_user_menu_choice` function doesn't handle invalid input gracefully; it should perhaps loop until valid input is received.
+- The dictionary keys in `results` are in French ('Victoire', 'Défaite', 'Egalité') while the instructions suggest using English ('win', 'loss', 'draw'). This inconsistency should be resolved for better clarity and consistency.
+- Error handling for the game result is insufficient. The `else` block in the `main` function's `elif option_game == "Play a new game":` section only prints a message instead of providing more informative error handling or logging.
+Correctness: 85%
+-----
