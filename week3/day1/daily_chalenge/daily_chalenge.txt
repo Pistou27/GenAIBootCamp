@@ -1,0 +1,50 @@
+Le lien de l'article : https://www.datamation.com/big-data/use-cases-for-data-analytics/
+
+Contexte:   
+
+Pizza Hut, grande chaîne de restauration, cherchait à centraliser et mieux analyser les données de performance de ses 2 800 magasins répartis dans 15 pays de la région Asie‑Pacifique.
+ 
+
+Problématiques avant l’analyse:
+
+
+Données fragmentées et cloisonnées.
+
+Difficulté à suivre les indicateurs clés de performance en temps réel.
+
+Lenteur dans la prise de décision pour améliorer les ventes et corriger les pertes.
+
+
+Mise en place:
+
+Pipeline de consolidation de données régionales vers le cloud AWS.
+
+Création d’un tableau de bord BI centralisé accessible à tous les managers.
+
+Développement de 20 rapports BI en cinq mois, en visualisation temps réel.
+
+
+Résultats concrets:
+
+Tableaux de bord permettant de savoir instantanément si les objectifs de vente sont atteints.
+
+Possibilité de détecter et corriger rapidement les problèmes de performance.
+
+Rapports accessibles en quelques minutes, améliorant la réactivité.
+
+
+Impact réel
+
+Pizza Hut a atteint :
+
+    Un accès global et rapide à la performance régionale.
+
+    Une meilleure prise de décision opérationnelle.
+
+    Une réactivité améliorée face aux défis du commerce de détail.
+
+
+
+Conclusion
+
+Ce cas montre que l’analyse de données ne se limite pas aux grandes innovations technologiques : même dans un contexte quotidien comme la restauration, les outils BI et l’analyse structurée permettent d’améliorer la performance, d’accélérer les décisions et d’agir avec plus de précision.
