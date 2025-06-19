@@ -54,6 +54,9 @@ plt.show()
 
 print(df_money_money.head())
 
+salary_stats = df_money_money.groupby('experience_level')['salary'].agg(['mean', 'median']).reset_index()
+print(salary_stats)
+
 """
 PCA mais illisible
 numeric_cols = df_money_money.select_dtypes(include=['number']).columns
